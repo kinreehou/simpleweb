@@ -1,0 +1,36 @@
+table, th, td{               /*td：table data  */
+    border: 1px solid black;
+    border-collapse: collapse;  /*td：把所有的框重合的合并  */
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.head1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    background-color: grey;
+    text-align: center;
+    min-width: 500px;
+    
+}
+
+.inputspace{
+    min-width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.button1 {
+    background-color: greenyellow;
+    min-width: 250px;
+} 
+
+.image{
+    display: flex;
+    justify-content: center;
+}
